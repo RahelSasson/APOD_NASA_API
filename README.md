@@ -1,6 +1,6 @@
-#Astronomy Photo Of The Day 
+# Astronomy Photo Of The Day 
 
-##Java project utilizing the NASAs API to display the Astronomy Photo of the Day, every day since 01/01/1996
+## Java project utilizing the NASAs API to display the Astronomy Photo of the Day, every day since 01/01/1996
 
 The Hubble Space Telescope takes pictures non stop 24 hours a day, seven days a week. Hubble orbits at a speed of 17,000 miles per hour (27,000 kph) and completes one orbit approximately every 95 minutes. The entire observable universe is captured section by section. Every single day since the start of the year 1996, NASA scientists have chosen the best photo taken that day; named it and placed it in an archive with a short description. That archive is now available for use via the NASA APOD API. 
 
