@@ -18,15 +18,26 @@ HTTP Request: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 
 Query Parameters
 
-**Parameter**	     **Type	Default**	   **Description**
+**Parameter**-**Type	Default**	-**Description**
 
-date	           YYYY-MM-DD	   today	The date of the APOD image to retrieve
+date:
+YYYY-MM-DD	   
+today -The date of the APOD image to retrieve
 
-start_date	     YYYY-MM-DD	   none	The start of a date range, when requesting date for a range of dates. Cannot be used with date.
 
-end_date	       YYYY-MM-DD	   today	The end of the date range, when used with start_date.
+start_date:
+YYYY-MM-DD	   
+none	-The start of a date range, when requesting date for a range of dates. Cannot be used with date.
 
-api_key	string	 DEMO_KEY	   api.nasa.gov key for expanded usage
+
+end_date:
+YYYY-MM-DD	   
+today -The end of the date range, when used with start_date.
+
+
+api_key	string:
+DEMO_KEY	  
+api.nasa.gov key for expanded usage
 
 
 **Example of Reponse code for the date 07/12/2014:**
